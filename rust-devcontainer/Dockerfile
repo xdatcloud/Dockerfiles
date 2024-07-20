@@ -6,12 +6,12 @@ COPY etc /tmp/etc
 COPY rustup /tmp/rustup
 COPY .cargo /tmp/.cargo
 
-RUN useradd -r -m -d /home/admin -s /bin/bash -g root -G sudo -u 101 admin \
+RUN useradd -r -m -d /home/admin -s /bin/bash -g root -G sudo -u 505 admin \
     && passwd -d admin \
     && cp /tmp/etc/apt/sources.list.d/ubuntu.sources /etc/apt/sources.list.d/ubuntu.sources \
     && cp /tmp/etc/apt/sources.list.d/third-party.sources /etc/apt/sources.list.d/third-party.sources \
     && apt-get update \
-    && apt-get install -y sudo git curl
+    && apt-get install -y sudo build-essential protobuf-compiler git curl
 
 USER admin
 WORKDIR /home/admin
