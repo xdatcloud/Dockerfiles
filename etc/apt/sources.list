@@ -1,0 +1,10 @@
+deb http://mirrors.aliyun.com/ubuntu/ bullseye main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ bullseye main restricted universe multiverse
+deb http://mirrors.aliyun.com/ubuntu/ bullseye-security main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ bullseye-security main restricted universe multiverse
+deb http://mirrors.aliyun.com/ubuntu/ bullseye-updates main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ bullseye-updates main restricted universe multiverse
+deb http://mirrors.aliyun.com/ubuntu/ bullseye-proposed main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ bullseye-proposed main restricted universe multiverse
+deb http://mirrors.aliyun.com/ubuntu/ bullseye-backports main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ bullseye-backports main restricted universe multiverse
